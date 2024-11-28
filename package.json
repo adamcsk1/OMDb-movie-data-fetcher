@@ -1,0 +1,17 @@
+{
+  "name": "omdb-movie-data-fetcher",
+  "version": "1.0.0",
+  "description": "OMDb movie data fetcher macro for the Obsidian QuickAdd plugin",
+  "main": "omdb-movie-data-fetcher.js",
+  "scripts": {
+    "format": "prettier --write .",
+    "lint": "eslint . ",
+    "lint:fix": "eslint . --fix "
+  },
+  "author": "adamcsk1",
+  "license": "MIT",
+  "devDependencies": {
+    "eslint": "^9.15.0",
+    "prettier": "^3.4.1"
+  }
+}
