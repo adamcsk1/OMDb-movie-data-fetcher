@@ -1,6 +1,6 @@
 {
   "name": "omdb-movie-data-fetcher",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "OMDb movie data fetcher macro for the Obsidian QuickAdd plugin",
   "main": "omdb-movie-data-fetcher.js",
   "scripts": {

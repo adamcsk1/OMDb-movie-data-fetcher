@@ -25,7 +25,7 @@ class OMDbMovieDataFetcher {
   }
 
   #removeIllegalCharacters(text = '') {
-    return text.replace(/[\\,#%&{}/*<>$'":@]*/g, '');
+    return text.replace(/[\\,#%&{}/*<>$'":@?]*/g, '');
   }
 
   async #processInputText() {
